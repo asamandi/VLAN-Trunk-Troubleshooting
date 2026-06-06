@@ -41,7 +41,7 @@ show interfaces trunk
 
 show ip interface brief
 
-show running-config interface fa0/1
+show interface fa0/1
 
 ping
 

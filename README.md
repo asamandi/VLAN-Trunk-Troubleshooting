@@ -47,37 +47,37 @@
 ---------------------------------------------------------------
 ### Screenshots
 
-[router-subinterface-10.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-before-break/router-subinterface-10.png)
+[router-subinterface-10.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/router-subinterface-10.png)
 - Shows the router subinterface configuration for VLAN 10 before the fix.
 
-[router-subinterface-20.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-before-break/router-subinterface-20.png)
+[router-subinterface-20.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/router-subinterface-20.png)
 - Shows the router subinterface configuration for VLAN 20 before the fix.
 
-[show-interfaces-trunk.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-before-break/show-interfaces-trunk.png)
+[show-interfaces-trunk.png](hhttps://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/show-interfaces-trunk.png)
 - Shows the trunk status before the fix.
 
-[show-vlan-brief.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-before-break/show-vlan-brief.png)
+[show-vlan-brief.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/show-vlan-brief.png)
 - Shows VLAN membership before the fix.
 
-[successful-pc1-to-pc2-ping.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-before-break/successful-pc1-to-pc2-ping.png)
+[successful-pc1-to-pc2-ping.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/successful-pc1-to-pc2-ping.png)
 - Shows the connectivity test before the break/fix scenario.
 
-[pc1-cannot-ping-pc2.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-after-fix/pc1-cannot-ping-pc2.png)
+[pc1-cannot-ping-pc2.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/pc1-cannot-ping-pc2.png)
 - Shows the broken state where PC1 could not ping PC2.
 
-[sw2-wrong-vlan.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-after-fix/sw2-wrong-vlan.png)
+[sw2-wrong-vlan.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/sw2-wrong-vlan.png)
 - Shows the incorrect VLAN assignment on SW2.
 
-[trunk-status.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-after-fix/trunk-status.png)
+[trunk-status.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/trunk-status.png)
 - Shows trunk verification during troubleshooting.
 
-[sw2-fixed-vlan.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-after-fix/sw2-fixed-vlan.png)
+[sw2-fixed-vlan.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/sw2-fixed-vlan.png)
 - Shows the corrected VLAN configuration on SW2.
 
-[show-vlan-brief-after-fix.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-after-fix/show-vlan-brief-after-fix.png)
+[show-vlan-brief-after-fix.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/show-vlan-brief-after-fix.png)
 - Shows VLAN membership after the fix.
 
-[successful-ping-after-fix.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-after-fix/successful-ping-after-fix.png)
+[successful-ping-after-fix.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/successful-ping-after-fix.png)
 - Shows successful ping after troubleshooting.
 
 ---------------------------------------------------------------

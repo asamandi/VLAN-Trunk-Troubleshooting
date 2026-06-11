@@ -46,11 +46,6 @@
 
 ---------------------------------------------------------------
 ### Screenshots
-This section documents the VLAN trunk troubleshooting process in two parts:
-- Before Fix
-- After Fix
-
-### Before Fix / Broken State:
 
 [router-subinterface-10.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-before-break/router-subinterface-10.png)
 - Shows the router subinterface configuration for VLAN 10 before the fix.
@@ -66,8 +61,6 @@ This section documents the VLAN trunk troubleshooting process in two parts:
 
 [successful-pc1-to-pc2-ping.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-before-break/successful-pc1-to-pc2-ping.png)
 - Shows the connectivity test before the break/fix scenario.
-
-### After Fix
 
 [pc1-cannot-ping-pc2.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots-after-fix/pc1-cannot-ping-pc2.png)
 - Shows the broken state where PC1 could not ping PC2.

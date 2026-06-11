@@ -1,0 +1,47 @@
+Device: SW2
+Lab: VLAN and Trunk Troubleshooting Lab
+Status: Fixed Configuration
+
+Purpose:
+This file shows the corrected configuration after troubleshooting.
+
+Problem Fixed:
+SW2 Fa0/1 was assigned to VLAN 10.
+It should be assigned to VLAN 20.
+
+Fixed Configuration:
+
+enable
+configure terminal
+
+hostname SW2
+
+vlan 10
+name USERS
+
+vlan 20
+name SERVERS
+
+interface fa0/1
+description Link_to_PC2
+switchport mode access
+switchport access vlan 20
+no shutdown
+
+interface fa0/23
+description Trunk_to_SW1
+switchport mode trunk
+switchport trunk allowed vlan 10,20
+no shutdown
+
+end
+write memory
+
+Verification Commands:
+
+show vlan brief
+show interfaces trunk
+
+Expected Result:
+Fa0/1 appears under VLAN 20.
+PC1 can successfully ping PC2.

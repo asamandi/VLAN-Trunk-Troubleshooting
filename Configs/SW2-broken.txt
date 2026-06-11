@@ -1,0 +1,54 @@
+Device: SW2
+Lab: VLAN and Trunk Troubleshooting Lab
+Status: Broken Configuration
+
+Purpose:
+This file shows the intentional mistake used for troubleshooting.
+
+Problem:
+PC2 should be in VLAN 20, but Fa0/1 is incorrectly assigned to VLAN 10.
+
+Expected Result:
+PC1 cannot ping PC2.
+
+Root Cause:
+Wrong VLAN assignment on SW2 Fa0/1.
+
+Broken Configuration:
+
+enable
+configure terminal
+
+hostname SW2
+
+vlan 10
+name USERS
+
+vlan 20
+name SERVERS
+
+interface fa0/1
+description Link_to_PC2_WRONG_VLAN
+switchport mode access
+switchport access vlan 10
+no shutdown
+
+interface fa0/23
+description Trunk_to_SW1
+switchport mode trunk
+switchport trunk allowed vlan 10,20
+no shutdown
+
+end
+write memory
+
+Troubleshooting Command:
+
+show vlan brief
+
+Expected Wrong Output:
+Fa0/1 appears under VLAN 10.
+
+Why This Is Wrong:
+PC2 uses IP address 192.168.20.10.
+PC2 belongs to VLAN 20, not VLAN 10.

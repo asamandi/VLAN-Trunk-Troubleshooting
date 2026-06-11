@@ -53,7 +53,7 @@
 [router-subinterface-20.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/router-subinterface-20.png)
 - Shows the router subinterface configuration for VLAN 20 before the fix.
 
-[show-interfaces-trunk.png](hhttps://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/show-interfaces-trunk.png)
+[show-interfaces-trunk.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/show-interfaces-trunk.png)
 - Shows the trunk status before the fix.
 
 [show-vlan-brief.png](https://github.com/asamandi/VLAN-Trunk-Troubleshooting/blob/main/Screenshots/show-vlan-brief.png)
